@@ -8,7 +8,7 @@ public class MemberController {
 	
 	@GetMapping("/")
 	public String index() {
-		System.out.println("index");
-		return "index";
+		String view = "index.html";
+		return view;
 	}
 }
